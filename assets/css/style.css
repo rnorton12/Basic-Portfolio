@@ -6,7 +6,7 @@ body {
     width: 1162px;
 }
 
-header{
+.MyName{
     float: left;
     width: 250px;
     height: 100px;
@@ -20,18 +20,18 @@ header{
     background-color: #4aaaa5;
 }
 
-nav{
+.MyWebPages{
     float: right;
     margin-right: 105px;
     padding-top: 20px;
 }
 
-a:link {
+#AboutPage, #PortfolioPage, #ContactPage {
     color: #777777;
     font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.content {
+.AboutMeContainer {
     position: relative;
     width: 100%;
     height: 2500px;
@@ -51,7 +51,7 @@ section{
     border: medium solid  #dddddd;
 }
 
-.heading
+.AboutMeHeading
 {
     clear: left;
     width: 88%;
@@ -66,7 +66,7 @@ section{
     border-bottom: medium solid  #cccccc;
 }
 
-.image{
+.MyPicture{
     float: left;
     width: 300px;
     height: 600px;
@@ -75,7 +75,7 @@ section{
     margin-left: 40px;
 }
 
-.paragraph{
+.MyBio{
     color: #777777;
     font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
     text-align: justify;
@@ -98,7 +98,7 @@ aside{
     border: medium solid  #dddddd;
 }
 
-.connect_with_me
+.ConnectWithMe
 {
     width: 250px;
     border-bottom: medium solid #cccccc;
@@ -107,7 +107,7 @@ aside{
     padding-bottom: 20px;
 }
 
-.github_icon, .linkedin_icon, .StackOverFlow_icon
+.GitHubIcon, .LinkedInIcon, .StackOverFlowIcon
 {
     width: 75px;
     height: 75px;
