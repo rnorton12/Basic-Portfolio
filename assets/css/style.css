@@ -33,7 +33,7 @@ body {
 
 .ContentContainer {
     position: relative;
-    width: 100%;
+    width: auto;
     height: 2500px;
     clear: both;
     background-image: url("./assets/images/light_alu.png");
