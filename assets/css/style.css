@@ -34,7 +34,7 @@ body {
 .ContentContainer {
     position: relative;
     width: auto;
-    height: 2500px;
+    height: 865px;
     clear: both;
     background-image: url("./assets/images/light_alu.png");
     background-color: #cccccc;
@@ -78,6 +78,7 @@ section{
     color: #777777;
     font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
     text-align: justify;
+    margin-bottom: 40px;
     margin-left: 40px;
     margin-right: 40px;
 }
